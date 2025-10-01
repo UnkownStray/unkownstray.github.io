@@ -1,11 +1,11 @@
-pagebody
+#pagebody
 {
     border: groove;
     text-align: center;
     border-color: black;
     background-color: antiquewhite;
 }
-pagebodylayout
+#pagebodylayout
 {
     background-color: whitesmoke;
     background-size: 74%;
@@ -15,14 +15,14 @@ pagebodylayout
     margin-right: auto;
     display: block;
 }
-pagenavlayout
+#pagenavlayout
 {
     background-position: center;
     text-align: center;
     border: groove;
     border-color: black;
 }
-heading
+#heading
 {
     text-align: center; 
     font-family: Impact;
