@@ -1,10 +1,11 @@
+pagebody
 {
     border: groove;
     text-align: center;
     border-color: black;
     background-color: antiquewhite;
 }
-#pagebodylayout
+pagebodylayout
 {
     background-color: whitesmoke;
     background-size: 74%;
@@ -14,12 +15,16 @@
     margin-right: auto;
     display: block;
 }
-#pagenavlayout
+pagenavlayout
 {
     background-position: center;
     text-align: center;
     border: groove;
     border-color: black;
+}
+title
+{
+    
 }
 nav
 {
@@ -38,7 +43,4 @@ a.nav:active
     color: lightpink;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
