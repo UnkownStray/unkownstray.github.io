@@ -22,10 +22,12 @@ pagenavlayout
     border: groove;
     border-color: black;
 }
-title
+heading
 {
     text-align: center; 
     font-family: Impact;
+    color: #000000;
+    font-size: 36px;
 }
 
 nav
