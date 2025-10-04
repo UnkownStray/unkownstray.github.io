@@ -33,14 +33,10 @@
     font-size: 20px;
 }
 
-.nav p
-{
-    color: skyblue;
-    text-align: center;
-}
 a.nav:link
 {
     color: deepskyblue;
+     text-align: center;
 }
 a.nav:hover
 {
