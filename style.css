@@ -46,6 +46,7 @@ a.nav:link
     color: #000000;
     text-align: center;
     border: groove;
+    border-color: #000000;
     background-color: #FFA500;
 }
 a.nav:hover
