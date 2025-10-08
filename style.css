@@ -43,12 +43,14 @@
 
 a.nav:link
 {
-    color: deepskyblue;
-     text-align: center;
+    color: #000000;
+    text-align: center;
+    border: groove;
+    background-color: #FFA500;
 }
 a.nav:hover
 {
-    color: orange;
+    color: #84E4F7;
 }
 a.nav:active
 {
