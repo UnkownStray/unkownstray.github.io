@@ -58,4 +58,13 @@ a.nav:active
     color: lightpink;
 }
 
+.bulletpoints
+{
+    color: #84E4F7;
+    font-size: 20px;
+    list-style-type: square;
+    text-algin: center;
+    font-family: Times New Roman;
+}
+
 
