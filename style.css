@@ -64,18 +64,17 @@ nav
 
 .nav li a {
   text-decoration: none;
-  color: #84E4F7;
+  color: #000000;
   font-size: 1rem;
   font-weight: bold;
 }
 
-a.nav:hover
-{
-    color: #84E4F7;
+.nav li a:hover {
+  color: #84E4F7;
 }
-a.nav:active
-{
-    color: lightpink;
+
+.nav li a:active {
+  color: lightpink;
 }
 
 .bulletpoints
