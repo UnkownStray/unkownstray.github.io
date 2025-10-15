@@ -9,7 +9,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: #333;
   border: groove;
   border-color: black;
 }
@@ -34,7 +33,7 @@ body {
   color: #84E4F7;
   font-size: 1rem;
   font-weight: bold;
-  transition: color 0.3s ease;
+  text-align: center;
 }
 
 /* Hover and active effects */
