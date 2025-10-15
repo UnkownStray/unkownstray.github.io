@@ -22,14 +22,14 @@ body {
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.5px;
   margin: 0;
   padding: 0;
 }
 
 /* Nav links */
 nav a {
-  color: skyblue;
+  color: #84E4F7;
   text-decoration: none;
   font-weight: bold;
   font-size: 1px;
@@ -51,7 +51,7 @@ nav a:active {
   border-color: black;
   background-color: antiquewhite;
   text-align: center;
-  padding: 1rem;
+  padding: 1px;
 }
 
 /* Layout container */
@@ -59,7 +59,7 @@ nav a:active {
   background-color: whitesmoke;
   border: groove;
   border-color: black;
-  margin: 2rem auto;
+  margin: 2px auto;
   width: 74%;
-  padding: 1rem;
+  padding: 1px;
 }
