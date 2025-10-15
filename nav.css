@@ -21,14 +21,12 @@
     text-align: center;
     border: groove;
     border-color: black;
-}
-nav
-{
-    color: skyblue;
-}
+
 a.nav:link
 {
+    color: skyblue;
     color: deepskyblue;
+    text-align: center;
 }
 a.nav:hover
 {
