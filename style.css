@@ -2,6 +2,7 @@
 {
     background-color: #808080;
 }
+
 #pagebody
 {
     border: groove;
@@ -9,6 +10,7 @@
     border-color: black;
     background-color: antiquewhite;
 }
+
 #pagebodylayout
 {
     background-color: whitesmoke;
@@ -19,13 +21,18 @@
     margin-right: auto;
     display: block;
 }
+
 #pagenavlayout
 {
-    background-position: center;
-    text-align: center;
-    border: groove;
-    border-color: black;
+  display: flex;
+  background-color: #808080;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border: groove;
+  border-color: black;
 }
+
 .heading
 {
     color: #000000;
