@@ -17,17 +17,16 @@ body {
   height: 50px;
 }
 
-/* Nav list layout */
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5px;
-  margin: 0;
-  padding: 0;
+/* Hover and active effects */
+nav a:active {
+  color: lightpink;
 }
 
-/* Nav links */
-nav a {
+.logo {
+  height: 50px;
+}
+
+.nav {
   color: #84E4F7;
   text-decoration: none;
   font-weight: bold;
@@ -35,13 +34,16 @@ nav a {
   transition: color 0.3s;
 }
 
-/* Hover and active effects */
-nav a:hover {
-  color: orange;
+.nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-nav a:active {
-  color: lightpink;
+.nav li a:hover {
+  color: orange;
 }
 
 /* Page body styling */
