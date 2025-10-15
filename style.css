@@ -41,7 +41,15 @@
     font-family: Times New Roman;
 }
 
-.nav {
+nav 
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav 
+{
   list-style: none;
   display: flex;
   justify-content: center;
@@ -54,7 +62,6 @@
   background-color: #FFA500;
 }
 
-/* Link styling */
 .nav li a {
   text-decoration: none;
   color: #84E4F7;
