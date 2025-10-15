@@ -1,49 +1,49 @@
+/* Global font style */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header and nav layout using Flexbox */
+/* Header layout using Flexbox */
 #pagenavlayout {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1px;
+  padding: 1rem 2rem;
+  background-color: #333;
   border: groove;
   border-color: black;
 }
 
-/* Logo styling */
+/* Logo image size */
 .logo {
   height: 50px;
 }
 
-/* Hover and active effects */
-nav a:active {
-  color: lightpink;
-}
-
-.logo {
-  height: 50px;
-}
-
+/* Navigation list layout */
 .nav {
-  color: #84E4F7;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1px;
-  transition: color 0.3s;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
+/* Link styling */
 .nav li a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
   font-weight: bold;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
+/* Hover and active effects */
 .nav li a:hover {
   color: orange;
+}
+
+.nav li a:active {
+  color: lightpink;
 }
 
 /* Page body styling */
@@ -52,15 +52,15 @@ nav a:active {
   border-color: black;
   background-color: antiquewhite;
   text-align: center;
-  padding: 1px;
+  padding: 1rem;
 }
 
-/* Layout container */
+/* Content layout container */
 #pagebodylayout {
   background-color: whitesmoke;
   border: groove;
   border-color: black;
-  margin: 2px auto;
+  margin: 2rem auto;
   width: 74%;
-  padding: 1px;
+  padding: 1rem;
 }
