@@ -20,7 +20,7 @@ body {
 
 /* Navigation list layout */
 .nav {
-  text-align: center;
+  justify-content: center;
   list-style: none;
   display: flex;
   gap: 1.5rem;
