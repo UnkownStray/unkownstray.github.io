@@ -31,7 +31,7 @@ body {
 /* Link styling */
 .nav li a {
   text-decoration: none;
-  color: white;
+  color: #84E4F7;
   font-size: 1rem;
   font-weight: bold;
   transition: color 0.3s ease;
