@@ -41,14 +41,27 @@
     font-family: Times New Roman;
 }
 
-a.nav:link
-{
-    color: #000000;
-    text-align: center;
-    border: groove;
-    border-color: #000000;
-    background-color: #FFA500;
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  border: groove;    
+  border-color: #000000;
+  background-color: #FFA500;
 }
+
+/* Link styling */
+.nav li a {
+  text-decoration: none;
+  color: #84E4F7;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 a.nav:hover
 {
     color: #84E4F7;
