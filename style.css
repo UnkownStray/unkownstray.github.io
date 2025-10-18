@@ -33,7 +33,7 @@
   border-color: black;
 }
 
-h1
+.heading
 {
     color: #000000;
     font-size: 50px;
@@ -41,7 +41,7 @@ h1
     font-family:Impact;
 }
 
-p
+.paragraph
 {
     color: #000000;
     font-size: 20px;
@@ -49,7 +49,7 @@ p
     font-family: Times New Roman;
 }
 
-p:first-of-type::first-letter {
+paragraph:first-of-type::first-letter {
   font-size: 200%;
   font-weight: bold;
    color: #FFA500;
