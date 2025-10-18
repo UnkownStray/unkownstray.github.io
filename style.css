@@ -45,14 +45,23 @@
 {
     color: #000000;
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
     font-family: Times New Roman;
+    text-indent: 2em;
 }
 
-.paragraph:first-letter {
+.paragraph:first-letter 
+{
   font-size: 200%;
-  font-weight: bold;
-   color: #FFA500;
+  color: #FFA500;
+}
+
+.reflectionp
+{
+    text-indent: 2em;
+    font-weight: bold;
+}
 
 .bulletpoints
 {
