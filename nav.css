@@ -33,6 +33,10 @@ nav {
   gap: 1.5rem;
   margin: 0;
   padding: 0;
+  color: #000000;
+  border: groove;    
+  border-color: #000000;
+  background-color: #FFA500;
 }
 
 /* Link styling */
