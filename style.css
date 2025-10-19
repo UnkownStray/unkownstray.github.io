@@ -45,7 +45,6 @@
 {
     color: #000000;
     font-size: 20px;
-    font-weight: bold;
     text-align: center;
     font-family: Times New Roman;
     text-indent: 2em;
@@ -59,9 +58,11 @@
 
 .reflectionp
 {
-    text-indent: 2em;
-    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
     font-family: Times New Roman;
+    text-indent: 2em;
 }
 
 .bulletpoints
