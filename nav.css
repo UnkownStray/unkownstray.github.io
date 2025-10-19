@@ -37,6 +37,7 @@ nav {
   border: groove;    
   border-color: #000000;
   background-color: #FFA500;
+  position: relative;
 }
 
 /* Link styling */
@@ -47,25 +48,22 @@ nav {
   font-weight: bold;
 }
 
-.droplink
-{
-  text-decoration: none;
-  color: #000000;
-  font-size: 1rem;
-  font-weight: bold;
-}
-.dropdown
-{
-  position: relative;
-  display: inline-block;
+.nav li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #FFD580;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    border: 1px solid #000;
+    z-index: 1000;
 }
 
-.dropdown-content
-{
-  text-decoration: none;
-  color: #000000;
-  font-size: 1rem;
-  font-weight: bold;
+.nav li:hover > .dropdown {
+    display: block;
 }
 
 /* Hover and active effects */
