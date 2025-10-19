@@ -40,6 +40,14 @@ nav {
   position: relative;
 }
 
+.droplink
+{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /* Link styling */
 .nav li a {
   text-decoration: none;
