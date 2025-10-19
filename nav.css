@@ -47,6 +47,27 @@ nav {
   font-weight: bold;
 }
 
+.droplink
+{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.dropdown
+{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content
+{
+  text-decoration: none;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 /* Hover and active effects */
 .nav li a:hover {
   color: #84E4F7;
