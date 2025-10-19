@@ -48,6 +48,18 @@ nav {
   font-weight: bold;
 }
 
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFD580;
+    min-width: 180px;
+    border: 1px solid #000;
+    z-index: 10;
+    flex-direction: column;
+}
+
 /* Link styling */
 .nav li a {
   text-decoration: none;
