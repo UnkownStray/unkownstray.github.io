@@ -33,6 +33,12 @@
   border-color: black;
 }
 
+#image
+{
+    width: 50%;
+    height: 50%
+}
+
 .heading
 {
     color: #000000;
