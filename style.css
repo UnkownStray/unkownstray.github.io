@@ -42,6 +42,12 @@
     display: block;
 }
 
+#showvideo
+{
+    width: 10%;
+    height: 10%;
+}
+
 .heading
 {
     color: #000000;
