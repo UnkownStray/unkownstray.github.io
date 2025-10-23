@@ -39,6 +39,8 @@
     height: 10%;
     margin-left: auto;
     margin-right: auto;
+    border: groove;
+    border-color: #000000;
 }
 
 #showvideo
