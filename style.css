@@ -49,6 +49,8 @@
     width: 25%;
     margin-right: auto;
     display: block;
+    border: groove;
+    border-color: #000000;
 }
 
 .heading
