@@ -111,16 +111,16 @@
 
   body 
     {
-        color: black !important;
+        color: #000000;
         font-family: "Times New Roman", serif;
-        background: none !important;
+        background: none;
     }
 
   #pagenavlayout,
   #image,
   #showvideo 
     {
-        display: none !important;
+        display: none;
     }
 
   .heading,
@@ -128,19 +128,19 @@
   .bulletpoints,
   footer 
     {
-        display: block !important;
-        color: black !important;
+        display: block;
+        color: #000000;
     }
 
   .heading 
     {
-        font-size: 24pt !important;
+        font-size: 24pt;
         font-family: "Times New Roman", serif;
     }
 
   .paragraph 
     {
-        font-size: 12pt !important;
+        font-size: 12pt;
         text-align: left;
         line-height: 1.5;
         text-indent: 0;
@@ -148,8 +148,8 @@
 
   .bulletpoints 
     {
-        font-size: 12pt !important;
-        color: black !important;
+        font-size: 12pt;
+        color: #000000;
         list-style-type: disc;
         margin: 0 auto;
         text-align: left;
