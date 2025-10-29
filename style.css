@@ -101,71 +101,64 @@
      padding-left: 10px;
 }
 
-@media print
-{
+@media print {
 
-@page 
-    {
-        margin: 1in;
-    }
+  @page {
+    margin: 1in;
+  }
 
-  body 
-    {
-        color: #000000;
-        font-family: "Times New Roman", serif;
-        background: none;
-    }
+  body {
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    background: none;
+  }
 
   #pagenavlayout,
   #image,
-  #showvideo 
-    {
-        display: none;
-    }
+  #showvideo {
+    display: none;
+  }
 
   .heading,
   .paragraph,
   .bulletpoints,
-  footer 
-    {
-        display: block;
-        color: #000000;
-    }
+  footer {
+    display: block;
+    color: #000000;
+  }
 
-  .heading 
-    {
-        font-size: 24pt;
-        font-family: "Times New Roman", serif;
-    }
+  .heading {
+    font-size: 20pt;
+    text-align: center;
+    margin: 0.3em 0;
+  }
 
-  .paragraph 
-    {
-        font-size: 12pt;
-        text-align: left;
-        line-height: 1.5;
-        text-indent: 0;
-    }
+  .paragraph {
+    font-size: 11pt;
+    line-height: 1.4;
+    text-align: left;
+    margin: 0.3em 0;
+    text-indent: 0;
+  }
 
-  .bulletpoints 
-    {
-        font-size: 12pt;
-        color: #000000;
-        list-style-type: disc;
-        margin: 0 auto;
-        text-align: left;
-        display: inline-block;
-    }
+  .bulletpoints {
+    font-size: 11pt;
+    color: #000000;
+    list-style-type: disc;
+    margin: 0.3em auto;
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+  }
 
-  footer 
-    {
-        font-size: 10pt;
-        margin-top: 20px;
-        text-align: center;
-    }
+  footer {
+    font-size: 10pt;
+    margin-top: 0.8em;
+    text-align: center;
+  }
 
-  body 
-    {
-        overflow: visible;
-        page-break-after: avoid;
-    }
+  html, body {
+    max-height: 10.5in;
+    overflow: hidden;
+  }
 }
