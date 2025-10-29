@@ -101,3 +101,71 @@
      padding-left: 10px;
 }
 
+@media print
+{
+
+@page 
+    {
+        margin: 1in;
+    }
+
+  body 
+    {
+        color: black !important;
+        font-family: "Times New Roman", serif;
+        background: none !important;
+    }
+
+  #pagenavlayout,
+  #image,
+  #showvideo 
+    {
+        display: none !important;
+    }
+
+  .heading,
+  .paragraph,
+  .bulletpoints,
+  footer 
+    {
+        display: block !important;
+        color: black !important;
+    }
+
+  .heading 
+    {
+        font-size: 24pt !important;
+        font-family: "Times New Roman", serif;
+    }
+
+  .paragraph 
+    {
+        font-size: 12pt !important;
+        text-align: left;
+        line-height: 1.5;
+        text-indent: 0;
+    }
+
+  .bulletpoints 
+    {
+        font-size: 12pt !important;
+        color: black !important;
+        list-style-type: disc;
+        margin: 0 auto;
+        text-align: left;
+        display: inline-block;
+    }
+
+  footer 
+    {
+        font-size: 10pt;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+  body 
+    {
+        overflow: visible;
+        page-break-after: avoid;
+    }
+}
