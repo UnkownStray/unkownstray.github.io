@@ -103,6 +103,7 @@
 
 @media print 
 {
+    
   @page 
     {
         margin: 1in;
@@ -110,16 +111,16 @@
 
   body 
     {
-        color: #000000 !important;
+        color: #000000;
         font-family: "Times New Roman", serif;
-        background: none !important;
+        background: none;
     }
-
+    
   #pagenavlayout,
   #image,
   #showvideo 
     {
-        display: none !important;
+        display: none;
     }
 
   .heading,
@@ -127,44 +128,47 @@
   .bulletpoints,
   footer 
     {
-        display: block !important;
-        color: #000000 !important;
+        display: block;
+        color: #000000;
     }
 
   .heading 
     {
-        font-size: 24pt !important;
-        font-family: "Times New Roman", serif;
-    }
+        font-size: 20pt;
+        text-align: center;
+        margin: 0.3em 0;
+   }
 
   .paragraph 
     {
-        font-size: 12pt !important;
+        font-size: 11pt;
+        line-height: 1.4;
         text-align: left;
-        line-height: 1.5;
+        margin: 0.3em 0;
         text-indent: 0;
-    }
+   }
 
   .bulletpoints 
     {
-        font-size: 12pt !important;
-        color: #000000 !important;
+        font-size: 11pt;
+        color: #000000;
         list-style-type: disc;
-        margin: 0 auto;
+        margin: 0.3em auto;
         text-align: left;
         display: inline-block;
-    }
+        padding-left: 20px;
+   }
 
-  footer
+  footer 
     {
         font-size: 10pt;
-        margin-top: 20px;
+        margin-top: 0.8em;
         text-align: center;
-    }
+   }
 
-  body 
+  html, body 
     {
-        overflow: visible;
-        page-break-after: avoid;
-    }
+        max-height: 10.5in;
+        overflow: hidden;
+   }
 }
