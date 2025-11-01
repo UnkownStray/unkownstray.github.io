@@ -116,7 +116,7 @@
 .contact-form textarea {
   width: 100%;
   padding: 0.6rem;
-  border: 1px solid #888;
+  border: 1px solid #000000;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 1rem;
@@ -128,8 +128,8 @@
 }
 
 .contact-form .btn-submit {
-  background-color: #333;
-  color: white;
+  background-color: #FFA500;
+  color: #000000;
   border: none;
   padding: 0.8rem;
   font-size: 1rem;
@@ -139,10 +139,9 @@
 }
 
 .contact-form .btn-submit:hover {
-  background-color: #555;
+  background-color: #84E4F7;
 }
 
-/* Make the form boxes adjust within the flex layout */
 section {
   display: flex;
   flex-wrap: wrap;
