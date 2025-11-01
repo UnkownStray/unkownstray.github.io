@@ -107,34 +107,56 @@
   gap: 1rem;
 }
 
+.contact-form label {
+  font-weight: bold;
+}
+
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
+  padding: 0.6rem;
+  border: 1px solid #888;
   border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
 }
 
 .contact-form textarea {
-  min-height: 100px;
   resize: vertical;
+  min-height: 100px;
 }
 
-.btn-submit {
-  background-color: #0066cc;
+.contact-form .btn-submit {
+  background-color: #333;
   color: white;
-  padding: 0.75rem;
   border: none;
-  border-radius: 4px;
+  padding: 0.8rem;
   font-size: 1rem;
   cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
 }
 
-.btn-submit:hover {
-  background-color: #004d99;
+.contact-form .btn-submit:hover {
+  background-color: #555;
 }
 
+/* Make the form boxes adjust within the flex layout */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+section > div {
+  flex: 1 1 400px;
+  border: groove;
+  border-color: black;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 
 @media print 
 {
