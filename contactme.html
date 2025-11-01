@@ -1,91 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Contact</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="nav.css">
-    </head>
-    <body>
-         <div style="border: groove; border-color: black">
-            <h1 style="text-align: center">Contact Me</h1>
-        </div>
-        <header id="pagenavlayout">
-            <nav>
-                <ul class="nav">
-                    <li><a href="https://unkownstray.github.io/index.html"><b>Homepage</b></a></li>
-                    <li><a href="https://unkownstray.github.io/about.html"><b>About Me</b></a></li>
-                    <li class="droplink"><a href="https://unkownstray.github.io/projects.html"><b>Projects/Experiences</b></a>
-                        <ul class="dropdown">
-                            <li><b>Learn More</b></li>
-                            <li><b>Learn More</b></li>
-                            <li><b>Learn More</b></li>
-                        </ul>
-                    </li>
-                    <li><a href="https://unkownstray.github.io/contactme.html"><b>Reflection</b></a></li>
-                </ul>
-            </nav>  
-        </header>
-        <div>
-            <table style="border: groove; border-color: black; margin: auto; width: 100%">
-                <tr>
-                    <td style="width: 50%">
-                        <h3><b>First Name:</b></h3>
-                    </td>
-                    <td style="border: groove; border-color: black">
-                        <h3 style="text-align: center"><b>Tristan Gibson's Contact Information</b></h3>
-                        <ul>
-                            <li style="text-align: center"><b>Email Address: Tg3f8@umsystem.edu</b></li>
-                            <br>
-                            <li style="text-align: center"><b>Phone Number:(123)-456-7890</b></li>
-                            <br>
-                            <li style="text-align: center"><b>Address: 409 Conley Ave, Columbia, MO 65201</b></li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr style="border: groove; border-color: black">
-                    <td style="border: groove">
-                        <h4>Enter here (can't actually type yet)</h4>
-                    </td>
-                    <td rowspan="3">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.069437141735!2d-92.33138712362724!3d38.94524204387902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87dcb7c713865187%3A0x5ee503f0a4a3d8d8!2s409%20Conley%20Ave%2C%20Columbia%2C%20MO%2065201!5e0!3m2!1sen!2sus!4v1757134811958!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%">
-                        <h3><b>Last Name:</b></h3>
-                    </td>
-                </tr>
-                <tr style="border: groove; border-color: black">
-                    <td style="border: groove">
-                        <h4>Enter here (can't actually type yet)</h4>
-                    </td>
-                    <tr>
-                    <td style="width: 50%">
-                        <h3><b>Email Address:</b></h3>
-                    </td>
-                </tr>
-                <tr style="border: groove; border-color: black">
-                    <td colspan="2" style="border: groove">
-                        <h4>Enter here (can't actually type yet)</h4>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="width: 50%">
-                        <h3><b>Message:</b></h3>
-                    </td>
-                </tr>
-                <tr style="border: groove; border-color: black">
-                    <td colspan="2" style="border: groove">
-                        <h4>Enter here (can't actually type yet)</h4>
-                    </td>
-            </table>
-            <button onclick="buttonClicked()">Submit</button>
-        </div>
-        <footer>
-            <h3>
-                Tristan Gibson Date: 10/22/2025
-           </h3>
-       </footer>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="nav.css" />
+</head>
+<body>
+
+  <!-- Page Title -->
+  <div style="border: groove; border-color: black;">
+    <h1 style="text-align: center;">Contact Me</h1>
+  </div>
+
+  <!-- Navigation -->
+  <header id="pagenavlayout">
+    <nav>
+      <ul class="nav">
+        <li><a href="https://unkownstray.github.io/index.html"><b>Homepage</b></a></li>
+        <li><a href="https://unkownstray.github.io/about.html"><b>About Me</b></a></li>
+        <li class="droplink">
+          <a href="https://unkownstray.github.io/projects.html"><b>Projects/Experiences</b></a>
+          <ul class="dropdown">
+            <li><b>Learn More</b></li>
+            <li><b>Learn More</b></li>
+            <li><b>Learn More</b></li>
+          </ul>
+        </li>
+        <li><a href="https://unkownstray.github.io/contactme.html"><b>Reflection</b></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main style="padding: 2rem;">
+    <section style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+      
+      <div style="flex: 1 1 400px; border: groove; border-color: black; padding: 1rem;">
+        <form action="#" method="post" class="contact-form">
+          <label for="title"><b>Title:</b></label>
+          <select id="title" name="title" required>
+            <option value="" disabled selected>Select your title</option>
+            <option value="mr">Mr.</option>
+            <option value="ms">Ms.</option>
+            <option value="dr">Dr.</option>
+          </select>
+
+          <!-- Full Name -->
+          <label for="fullname"><b>Full Name:</b></label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
+
+          <!-- Email -->
+          <label for="email"><b>Email Address:</b></label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+
+          <!-- Message -->
+          <label for="message"><b>Message:</b></label>
+          <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+          <!-- Select Button (Reason for Contact) -->
+          <label for="reason"><b>Reason for Contact:</b></label>
+          <select id="reason" name="reason" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="feedback">Feedback</option>
+            <option value="support">Support</option>
+            <option value="inquiry">General Inquiry</option>
+          </select>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn-submit">Submit</button>
+        </form>
+      </div>
+
+      <!-- Contact Info + Map -->
+      <div style="flex: 1 1 400px; border: groove; border-color: black; padding: 1rem;">
+        <h3 style="text-align: center;"><b>Tristan Gibson's Contact Information</b></h3>
+        <ul style="list-style-type: none; padding: 0; text-align: center;">
+          <li><b>Email:</b> Tg3f8@umsystem.edu</li>
+          <li><b>Phone:</b> (123)-456-7890</li>
+          <li><b>Address:</b> 409 Conley Ave, Columbia, MO 65201</li>
+        </ul>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.069437141735!2d-92.33138712362724!3d38.94524204387902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87dcb7c713865187%3A0x5ee503f0a4a3d8d8!2s409%20Conley%20Ave%2C%20Columbia%2C%20MO%2065201!5e0!3m2!1sen!2sus!4v1757134811958!5m2!1sen!2sus"
+          width="100%"
+          height="350"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <h3>Tristan Gibson: 10/31/2025</h3>
+  </footer>
+
+</body>
 </html>
