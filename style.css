@@ -5,12 +5,13 @@
   background-color: #808080;
   padding: 1rem;
 }
-#pagebody 
+#pagebodylayout
 { 
   border: groove; 
   text-align: center; 
   border-color: black;
   background-color: antiquewhite;
+  grid-column: span 2;
 } 
 #pagebody 
 { 
@@ -227,5 +228,11 @@ section > div
   {
     overflow: visible;
     page-break-after: avoid;
+  }
+}
+@media (max-width: 768px) 
+{
+  #page {
+    grid-template-columns: 1fr;
   }
 }
