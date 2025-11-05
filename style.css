@@ -1,5 +1,11 @@
-#page {
+#page 
+{
+  display: grid;
+  grid-template-rows: auto auto auto 1fr auto;
+  gap: 1rem;
   background-color: #808080;
+  padding: 1rem;
+  margin: 0;
 }
 #pagebodylayout
 { 
