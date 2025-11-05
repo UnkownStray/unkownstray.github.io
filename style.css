@@ -231,7 +231,7 @@ section > div
     page-break-after: avoid;
   }
 }
-@media (max-width: 768px) 
+@media mobile (max-width: 768px) 
 {
   #pagebodylayout
   {
