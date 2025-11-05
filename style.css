@@ -231,3 +231,16 @@ section > div
     page-break-after: avoid;
   }
 }
+@media (max-width: 768px) {
+  #pagebodylayout {
+    grid-template-columns: 1fr; /* Stack vertically on smaller screens */
+  }
+
+  #pagenavlayout + div {
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+}
