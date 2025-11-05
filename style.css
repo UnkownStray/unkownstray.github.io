@@ -1,106 +1,94 @@
-#page
-{
-    background-color: #808080;
-}
-
-#pagebody
-{
-    border: groove;
-    text-align: center;
-    border-color: black;
-    background-color: antiquewhite;
-}
-
-#pagebodylayout
-{
-    background-color: whitesmoke;
-    background-size: 74%;
-    border: groove;
-    border-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-#pagenavlayout
-{
-  display: flex;
+#page {
   background-color: #808080;
+  margin: 0;
+  font-family: "Times New Roman", serif;
+}
+
+
+#pagenavlayout {
+  background-color: #808080;
+  text-align: center;
+  padding: 1rem;
+  border: groove 2px black;
+}
+
+.heading {
+  color: #000;
+  font-size: 50px;
+  font-family: Impact, sans-serif;
+  text-align: center;
+}
+
+
+#grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: whitesmoke;
+  border: groove 2px black;
+}
+
+
+.media-section {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 1rem 2rem;
-  border: groove;
-  border-color: black;
+  gap: 1rem;
 }
 
-#image
-{
-    width: 15%;
-    height: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    border: groove;
-    border-color: #000000;
-    background-color: #84E4F7;
+#image {
+  width: 100%;
+  max-width: 250px;
+  border: groove 2px #000;
+  background-color: #84E4F7;
 }
 
-#showvideo
-{
-    height: 25%;
-    width: 25%;
-    margin-right: auto;
-    display: block;
-    border: groove;
-    border-color: #000000;
-    background-color: #84E4F7;
+#showvideo {
+  width: 100%;
+  max-width: 300px;
+  border: groove 2px #000;
+  background-color: #84E4F7;
 }
 
-.heading
-{
-    color: #000000;
-    font-size: 50px;
-    text-align: center; 
-    font-family:Impact;
+
+.info-section {
+  background-color: #fff;
+  border: groove 2px black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
 }
 
-.paragraph
-{
-    color: #000000;
-    font-size: 20px;
-    text-align: center;
-    font-family: Times New Roman;
-    text-indent: 2em;
+.paragraph {
+  color: #000;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 2em;
 }
 
-.paragraph:first-letter 
-{
+.paragraph:first-letter {
   font-size: 200%;
   color: #FFA500;
 }
 
-.reflectionp
-{
-    color: #000000;
-    font-size: 20px;
-    text-align: center;
-    font-family: Times New Roman;
-    text-indent: 2em;
+h2 {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #000;
 }
 
-.bulletpoints
-{
-    color: #FFA500;
-    font-size: 20px;
-    list-style-type: square;
-    text-algin: center;
-    font-family: Times New Roman;
+.bulletpoints {
+  color: #FFA500;
+  font-size: 18px;
+  list-style-type: square;
+  text-align: left;
+  font-family: "Times New Roman", serif;
+  padding-left: 1.5rem;
 }
 
-.pointdivision
-{
-     padding-left: 10px;
+.pointdivision {
+  padding: 0.3rem 0;
 }
-
 .contactbody
 {
     padding: 2rem;
