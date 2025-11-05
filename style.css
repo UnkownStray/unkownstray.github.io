@@ -172,6 +172,7 @@ section > div
   padding: 1rem;
   box-sizing: border-box; 
 } 
+
 @media print 
 {
   @page 
@@ -230,26 +231,4 @@ section > div
     overflow: visible;
     page-break-after: avoid;
   }
-}
-@media mobile (max-width: 768px) 
-{
-  #pagebodylayout
-  {
-    grid-template-columns: 1fr; /* Stack vertically on smaller screens */
-  }
-
-  #pagenavlayout + div 
-  {
-    flex-direction: column;
-  }
-
-  .heading 
-  {
-    font-size: 36px;
-  }
-    #image, #showvideo 
-  {
-    max-width: 90%;
-  }
-
 }
