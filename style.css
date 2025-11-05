@@ -1,18 +1,21 @@
-#page {
+#page 
+{
   background-color: #808080;
   margin: 0;
   font-family: "Times New Roman", serif;
 }
 
 
-#pagenavlayout {
+#pagenavlayout 
+{
   background-color: #808080;
   text-align: center;
   padding: 1rem;
   border: groove 2px black;
 }
 
-.heading {
+.heading 
+{
   color: #000;
   font-size: 50px;
   font-family: Impact, sans-serif;
@@ -20,7 +23,8 @@
 }
 
 
-#grid-layout {
+#grid-layout 
+{
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2rem;
@@ -30,21 +34,24 @@
 }
 
 
-.media-section {
+.media-section 
+{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
 
-#image {
+#image 
+{
   width: 100%;
   max-width: 250px;
   border: groove 2px #000;
   background-color: #84E4F7;
 }
 
-#showvideo {
+#showvideo 
+{
   width: 100%;
   max-width: 300px;
   border: groove 2px #000;
@@ -52,32 +59,37 @@
 }
 
 
-.info-section {
+.info-section 
+{
   background-color: #fff;
   border: groove 2px black;
   padding: 1rem 1.5rem;
   border-radius: 8px;
 }
 
-.paragraph {
+.paragraph 
+{
   color: #000;
   font-size: 18px;
   text-align: justify;
   text-indent: 2em;
 }
 
-.paragraph:first-letter {
+.paragraph:first-letter 
+{
   font-size: 200%;
   color: #FFA500;
 }
 
-h2 {
+h2 
+{
   text-align: center;
   margin-top: 1.5rem;
   color: #000;
 }
 
-.bulletpoints {
+.bulletpoints 
+{
   color: #FFA500;
   font-size: 18px;
   list-style-type: square;
@@ -86,9 +98,39 @@ h2 {
   padding-left: 1.5rem;
 }
 
-.pointdivision {
+.pointdivision 
+{
   padding: 0.3rem 0;
 }
+
+.resume-link 
+{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.resume-link a 
+{
+  color: #000;
+  background-color: #FFA500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.resume-link a:hover {
+  background-color: #84E4F7;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #808080;
+  color: #000;
+  border-top: groove 2px black;
+}
+
 .contactbody
 {
     padding: 2rem;
