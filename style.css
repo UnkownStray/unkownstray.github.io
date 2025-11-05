@@ -14,6 +14,17 @@
   border: groove 2px black;
 }
 
+#pagebodylayout 
+{ 
+  background-color: whitesmoke; 
+  background-size: 74%; 
+  border: groove; 
+  border-color: black; 
+  margin-left: auto; 
+  margin-right: auto; 
+  display: block; 
+}
+
 .heading 
 {
   color: #000;
