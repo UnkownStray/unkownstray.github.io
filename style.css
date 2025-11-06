@@ -41,10 +41,16 @@
   padding: 1rem 1.5rem;
   border-radius: 8px;
 }
+.media-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 #image 
 { 
-  width: 15%;
-  height: 10%;
+  width: 100%;
+  max-width: 250px;
   margin-left: auto;
   margin-right: auto;
   border: groove;
@@ -53,8 +59,8 @@
 } 
 #showvideo 
 { 
-  height: 25%;
-  width: 25%;
+  width: 100%;
+  max-width: 250px;
   margin-right: auto;
   display: block;
   border: groove;
