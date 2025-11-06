@@ -39,7 +39,6 @@
   background-color: #fff;
   border: groove 2px #000000;
   padding: 1rem 1.5rem;
-  border-radius: 8px;
 }
 .media-section {
   display: flex;
@@ -60,7 +59,7 @@
 #showvideo 
 { 
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   margin-right: auto;
   display: block;
   border: groove;
