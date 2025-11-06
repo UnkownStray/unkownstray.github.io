@@ -189,6 +189,24 @@ section > div
   box-sizing: border-box; 
 } 
 
+.resume-link {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.resume-link a 
+{
+  color: #000000;
+  background-color: #FFA500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.resume-link a:hover {
+  background-color: #84E4F7;
+}
+
 @media print 
 {
   @page 
