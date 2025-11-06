@@ -26,6 +26,21 @@
   border: groove;
   border-color: black;
 }
+#grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: whitesmoke;
+  border: groove 2px black;
+}
+.info-section 
+{
+  background-color: #fff;
+  border: groove 2px black;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+}
 #image 
 { 
   width: 15%;
