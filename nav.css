@@ -126,17 +126,32 @@ nav
   color: #000000;
 }
 
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle:checked ~ nav .nav {
+    display: flex;
+}
+
+
 @media screen and (max-width: 768px) 
 {
-
   .nav 
   {
-    display: none;
+    display: none;           
+    flex-direction: column;    
+    width: 100%;
+    background-color: #FFA500;
+    padding: 1rem 0;
+    text-align: center;
   }
 
   .hamburger 
   {
     display: block;
+    font-size: 28px;
+    cursor: pointer;
   }
 
   .nav .dropdown 
