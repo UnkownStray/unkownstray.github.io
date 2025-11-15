@@ -6,14 +6,14 @@
 { 
   border: groove; 
   text-align: center; 
-  border-color: black;
+  border-color: #000000;
   background-color: antiquewhite;
 } 
 #pagebody 
 { 
   border: groove;
   text-align: center;
-  border-color: black;
+  border-color: #000000;
   background-color: antiquewhite;
 }
 #pagenavlayout 
@@ -24,7 +24,7 @@
   justify-content: center;
   padding: 1rem 2rem;
   border: groove;
-  border-color: black;
+  border-color: #000000;
 }
 #grid-layout {
   display: grid;
@@ -121,7 +121,7 @@
 { 
   flex: 1 1 400px;
   border: groove;
-  border-color: black;
+  border-color: #000000;
   padding: 1rem;
 } 
 .contactlist 
@@ -183,12 +183,13 @@ section > div
 {
   flex: 1 1 400px;
   border: groove;
-  border-color: black;
+  border-color: #000000;
   padding: 1rem;
   box-sizing: border-box; 
 } 
 
-.resume-link {
+.resume-link 
+{
   text-align: center;
   margin-top: 1rem;
 }
@@ -202,8 +203,54 @@ section > div
   text-decoration: none;
 }
 
-.resume-link a:hover {
+.resume-link a:hover 
+{
   background-color: #84E4F7;
+}
+
+.project-section 
+{
+    padding: 2rem;
+}
+
+.project-grid 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    border: groove;
+    border-color: #000000;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+.project-media img 
+{
+    width: 100%;
+    border: groove;
+    border-color: #000000;
+}
+
+.project-info h2 
+{
+    text-align: center;
+}
+
+.project-info p
+{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.page-title h1 
+{
+    text-align: center;
+    padding: 1rem;
+    border: groove;
+    border-color: #000000;
+    background-color: #808080;
+    color: #000000;
 }
 
 @media print 
@@ -266,18 +313,40 @@ section > div
   }
 }
 
-@media (max-width: 768px) {
-  #grid-layout {
+@media (max-width: 768px) 
+{
+  #grid-layout 
+  {
     grid-template-columns: 1fr;
   }
 
-  .paragraph {
+  .paragraph 
+  {
     text-align: left;
   }
 
   #image,
-  #showvideo {
+  #showvideo 
+  {
     max-width: 80%;
   }
 }
 
+
+@media (max-width: 600px) 
+{
+    .project-grid 
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .project-info p 
+    {
+        font-size: 0.95rem;
+    }
+
+    .page-title h1 
+    {
+        font-size: 1.8rem;
+    }
+}
