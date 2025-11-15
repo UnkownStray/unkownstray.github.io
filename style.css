@@ -253,6 +253,17 @@ section > div
     color: #000000;
 }
 
+.project-media img 
+{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 3px solid #000;
+}
+
 @media print 
 {
   @page 
@@ -349,4 +360,9 @@ section > div
     {
         font-size: 1.8rem;
     }
+    .project-media img 
+  {
+        max-width: 85%; 
+    }
+  
 }
