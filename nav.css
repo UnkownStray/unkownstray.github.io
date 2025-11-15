@@ -61,6 +61,41 @@ nav
     flex-direction: column;
 }
 
+.has-dropdown 
+{
+    position: relative;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFD580;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 180px;
+    border: 1px solid #000;
+    z-index: 1000;
+}
+
+.has-dropdown:hover .dropdown 
+{
+    display: block;
+}
+
+.dropdown li a {
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.dropdown li a:hover {
+    background-color: #84E4F7;
+}
+
 .nav li a 
 {
   text-decoration: none;
