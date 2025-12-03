@@ -6,13 +6,13 @@
 /* Custom font from Google Fonts applied to site */
 body 
 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Padauk', sans-serif;
 }
 
 /* Custom styles for all <h1 or h2> elements */
 .heading 
 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Padauk', sans-serif;
     font-size: 50px;
     text-align: center;
     color: #FFA500;
