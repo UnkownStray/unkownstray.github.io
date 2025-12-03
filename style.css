@@ -2,11 +2,14 @@
 {
   background-color: #808080;
 }
+
+/* Custom font from Google Fonts applied to site */
 body 
 {
     font-family: 'Bebas Neue', cursive;
 }
 
+/* Custom styles for all <h1 or h2> elements */
 .heading 
 {
     font-family: 'Bebas Neue', cursive;
