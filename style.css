@@ -346,29 +346,16 @@ section > div
     border-top: groove 2px #000000;
 }
 
-.footer-icons {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.footer-icon i 
+.footer-icon 
 {
     font-size: 32px;
-    color: #ffffff;
-    transition: 
-        transform 0.3s ease,
-        color 0.3s ease,
-        text-shadow 0.3s ease;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-.footer-icon:hover i 
+.footer-icon:hover 
 {
     transform: scale(1.25);
-    color: #FFA500;
-    text-shadow: 0 0 12px rgba(255, 165, 0, 0.9);
-    cursor: pointer;
+    text-shadow: 0 0 10px orange;
 }
 
 @media print 
