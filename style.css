@@ -443,6 +443,34 @@ section > div
   }
 }
 
+.resume-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.resume-btn {
+    display: inline-block;
+    background-color: #FFA500; /* bright orange button */
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.resume-btn:hover {
+    background-color: #e69500;
+}
+
+@media screen and (max-width: 600px) {
+    .resume-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
 @media (max-width: 768px) 
 {
   #grid-layout 
