@@ -10,14 +10,14 @@ body
 }
 
 /* Custom styles for all <h1 or h2> elements */
-.reflectionheading 
+.heading 
 {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     text-align: center;
     color: #FFA500;
     text-shadow: 2px 2px 6px #000000;
-    letter-spacing: 2px;            
+    letter-spacing: 2px;
 }
 #pagebodylayout
 { 
@@ -83,13 +83,7 @@ body
   border-color: #000000;
   background-color: #84E4F7;
 } 
-.heading 
-{ 
-  color: #000000;
-  font-size: 50px;
-  text-align: center;
-  font-family:Impact;
-} 
+
 .paragraph 
 { 
   color: #000000;
